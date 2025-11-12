@@ -1,15 +1,24 @@
-#ifndef ENCLOSURE_H
-#define ENCLOSURE_H
+#include <iostream>
+#include <string>
+using namespace std;
+class Enclouser{
+private:
+    string array[]*;
+    int capacity;
+    int currentCount;
 
-#include "Animal.h"
+public:
+    Enclouser(string array[],int capacity,int currentCount){
 
-//define enclosure class here 
+    }
+void addAnimal(Animal* a){
+    if(currentCount<capacity)
+    currentCount++;
+}else {
+cout<<"capacity is full"<<endl;
+ }
+void displayAnimals(){
 
+}
 
-
-
-
-
-
-
-#endif
+ }
